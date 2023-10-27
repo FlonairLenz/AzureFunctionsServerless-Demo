@@ -37,7 +37,7 @@ namespace Academy.Project.Extensions.Triggers
                         TriggerValue = domainEvent,
                     };
                     var execution = this._executor.TryExecuteAsync(triggeredData, cancellationToken);
-                    await execution.WaitAsync(cancellationToken).ConfigureAwait(false);
+                    // await execution.WaitAsync(cancellationToken).ConfigureAwait(false);
                 }
             }, cancellationToken);
 

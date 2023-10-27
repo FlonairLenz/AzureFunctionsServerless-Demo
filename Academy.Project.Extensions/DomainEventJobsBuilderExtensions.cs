@@ -16,6 +16,7 @@ namespace Academy.Project.Extensions
 
             builder.AddExtension<DomainEventExtensionConfigProvider>();
             builder.Services.AddSingleton(Channel.CreateUnbounded<string>());
+            builder.Services.AddSingleton(Channel.CreateUnbounded<INotification>());
             builder.Services.AddSingleton<IDomainEventChannelFactory, DomainEventChannelFactory>();
 
             return builder;

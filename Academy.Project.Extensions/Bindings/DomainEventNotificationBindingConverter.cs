@@ -2,7 +2,7 @@
 
 namespace Academy.Project.Extensions.Bindings
 {
-    internal class DomainEventNotificationBindingConverter<T> : IConverter<DomainEventNotificationAttribute, IAsyncCollector<T>>
+    internal class DomainEventNotificationBindingConverter : IConverter<DomainEventNotificationAttribute, IAsyncCollector<INotification>>
     {
         /// <summary>
         /// Extension Config Provider
@@ -23,9 +23,9 @@ namespace Academy.Project.Extensions.Bindings
         /// </summary>
         /// <param name="input">DomainEvent attribute instance</param>
         /// <returns>Returns the async collector instance</returns>
-        public IAsyncCollector<T> Convert(DomainEventNotificationAttribute input)
+        public IAsyncCollector<INotification> Convert(DomainEventNotificationAttribute input)
         {
-            return new DomainEventNotificationAsyncCollector<T>(this._provider.CreateContext(input));
+            return new DomainEventNotificationAsyncCollector(this._provider.CreateContext(input));
         }
     }
 }

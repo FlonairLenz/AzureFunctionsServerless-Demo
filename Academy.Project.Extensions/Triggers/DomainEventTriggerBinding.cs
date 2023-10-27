@@ -14,7 +14,7 @@ namespace Academy.Project.Extensions.Triggers
             this._context = context;
         }
 
-        public Type TriggerValueType => typeof(string);
+        public Type TriggerValueType => typeof(INotification);
         public IReadOnlyDictionary<string, Type> BindingDataContract => new Dictionary<string, Type>();
 
         public Task<ITriggerData> BindAsync(object value, ValueBindingContext context)

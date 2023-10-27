@@ -22,7 +22,7 @@ namespace Academy.Project.Extensions
             triggerRule.BindToTrigger(new DomainEventTriggerBindingProvider(this));
 
             var bindingRule = context.AddBindingRule<DomainEventNotificationAttribute>();
-            bindingRule.BindToCollector<string>(typeof(DomainEventNotificationBindingConverter<>), this);
+            bindingRule.BindToCollector<INotification>(typeof(DomainEventNotificationBindingConverter), this);
         }
 
         public DomainEventTriggerContext CreateContext(DomainEventTriggerAttribute attribute)

@@ -18,7 +18,7 @@ namespace Academy.Project.Extensions.Triggers
             var attribute = parameter.GetCustomAttribute<DomainEventTriggerAttribute>(false);
 
             if (attribute == null) return Task.FromResult<ITriggerBinding>(null);
-            if (parameter.ParameterType != typeof(string)) throw new InvalidOperationException("Invalid parameter type");
+            if (parameter.ParameterType.GetInterfaces().All(i => i != typeof(INotification))) throw new InvalidOperationException("Invalid parameter type");
 
             var triggerBinding = new DomainEventTriggerBinding(this._provider.CreateContext(attribute));
 

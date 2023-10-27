@@ -4,9 +4,9 @@ namespace Academy.Project.Extensions
 {
     public class DomainEventChannelClient
     {
-        public readonly Channel<string> channel;
+        public readonly Channel<INotification> channel;
 
-        public DomainEventChannelClient(Channel<string> channel)
+        public DomainEventChannelClient(Channel<INotification> channel)
         {
             this.channel = channel;
         }

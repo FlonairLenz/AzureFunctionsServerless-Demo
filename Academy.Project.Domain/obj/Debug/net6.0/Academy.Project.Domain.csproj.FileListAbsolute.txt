@@ -13,3 +13,7 @@
 /Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Domain/bin/Debug/net6.0/Newtonsoft.Json.dll
 /Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Domain/obj/Debug/net6.0/Academy.Project.Domain.csproj.CopyComplete
 /Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Domain/bin/Debug/net6.0/Microsoft.Azure.WebJobs.dll
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Domain/bin/Debug/net6.0/Academy.Project.Extensions.dll
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Domain/bin/Debug/net6.0/Microsoft.Azure.WebJobs.Host.dll
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Domain/bin/Debug/net6.0/System.Memory.Data.dll
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Domain/bin/Debug/net6.0/Academy.Project.Extensions.pdb

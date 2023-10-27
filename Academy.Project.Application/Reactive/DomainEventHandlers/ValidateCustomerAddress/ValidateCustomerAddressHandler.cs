@@ -8,7 +8,7 @@ namespace Academy.Project.Restful.Reactive.DomainEventHandlers.ValidateCustomerA
 public static class ValidateCustomerAddressHandler
 {
     [FunctionName("ValidateCustomerAddressHandler")]
-    public static void Run([DomainEventTrigger] string customerCreatedEvent,
+    public static void Run([DomainEventTrigger] CustomerCreatedEvent customerCreatedEvent,
         ILogger log)
     {
         log.LogTrace("ValidateCustomerAddressHandler");

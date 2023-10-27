@@ -6,7 +6,7 @@ namespace Academy.Project.Extensions
     {
         private readonly DomainEventChannelClient _domainEventChannelClient;
 
-        public DomainEventChannelFactory(Channel<string> channel)
+        public DomainEventChannelFactory(Channel<INotification> channel)
         {
             _domainEventChannelClient = new DomainEventChannelClient(channel);
         }

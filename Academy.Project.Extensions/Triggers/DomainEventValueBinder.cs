@@ -11,7 +11,7 @@ namespace Academy.Project.Extensions.Triggers
             this._value = value;
         }
 
-        public Type Type => typeof(string);
+        public Type Type => typeof(INotification);
 
         public Task<object> GetValueAsync()
         {

@@ -11,6 +11,7 @@ public record CustomerEntity : Entity
     private CustomerEntity(string name)
     {
         this.Name = name;
+        this.Address = new Address("Teststr. 1", "Teststadt", "12345", "Testland", "Testlandkreis");
     }
     
     public string Name { get; init; }
@@ -25,7 +26,7 @@ public record CustomerEntity : Entity
         {
             AddressStatus = AddressStatus.Unknown
         };
-        customer.DomainEvents.Add(new CustomerCreatedEvent());
+        customer.DomainEvents.Add(new CustomerCreatedEvent(customer.Id, customer.Address));
         customer.IntegrationEvents.Add(new CustomerCreatedIntegrationEvent());
         return customer;
     }
