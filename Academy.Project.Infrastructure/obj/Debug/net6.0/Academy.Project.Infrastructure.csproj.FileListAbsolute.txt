@@ -1,0 +1,15 @@
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Infrastructure/bin/Debug/net6.0/Academy.Project.Infrastructure.deps.json
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Infrastructure/bin/Debug/net6.0/Academy.Project.Infrastructure.dll
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Infrastructure/bin/Debug/net6.0/Academy.Project.Infrastructure.pdb
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Infrastructure/bin/Debug/net6.0/Academy.Project.Domain.dll
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Infrastructure/bin/Debug/net6.0/Academy.Project.Domain.pdb
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Infrastructure/obj/Debug/net6.0/Academy.Project.Infrastructure.csproj.AssemblyReference.cache
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Infrastructure/obj/Debug/net6.0/Academy.Project.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Infrastructure/obj/Debug/net6.0/Academy.Project.Infrastructure.AssemblyInfoInputs.cache
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Infrastructure/obj/Debug/net6.0/Academy.Project.Infrastructure.AssemblyInfo.cs
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Infrastructure/obj/Debug/net6.0/Academy.Project.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Infrastructure/obj/Debug/net6.0/Academy.Project.Infrastructure.csproj.CopyComplete
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Infrastructure/obj/Debug/net6.0/Academy.Project.Infrastructure.dll
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Infrastructure/obj/Debug/net6.0/refint/Academy.Project.Infrastructure.dll
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Infrastructure/obj/Debug/net6.0/Academy.Project.Infrastructure.pdb
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Infrastructure/obj/Debug/net6.0/ref/Academy.Project.Infrastructure.dll

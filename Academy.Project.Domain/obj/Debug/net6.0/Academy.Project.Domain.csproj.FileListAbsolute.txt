@@ -1,0 +1,15 @@
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Domain/bin/Debug/net6.0/Academy.Project.Domain.deps.json
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Domain/bin/Debug/net6.0/Academy.Project.Domain.dll
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Domain/bin/Debug/net6.0/Academy.Project.Domain.pdb
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Domain/obj/Debug/net6.0/Academy.Project.Domain.csproj.AssemblyReference.cache
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Domain/obj/Debug/net6.0/Academy.Project.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Domain/obj/Debug/net6.0/Academy.Project.Domain.AssemblyInfoInputs.cache
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Domain/obj/Debug/net6.0/Academy.Project.Domain.AssemblyInfo.cs
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Domain/obj/Debug/net6.0/Academy.Project.Domain.csproj.CoreCompileInputs.cache
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Domain/obj/Debug/net6.0/Academy.Project.Domain.dll
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Domain/obj/Debug/net6.0/refint/Academy.Project.Domain.dll
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Domain/obj/Debug/net6.0/Academy.Project.Domain.pdb
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Domain/obj/Debug/net6.0/ref/Academy.Project.Domain.dll
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Domain/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Domain/obj/Debug/net6.0/Academy.Project.Domain.csproj.CopyComplete
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Domain/bin/Debug/net6.0/Microsoft.Azure.WebJobs.dll

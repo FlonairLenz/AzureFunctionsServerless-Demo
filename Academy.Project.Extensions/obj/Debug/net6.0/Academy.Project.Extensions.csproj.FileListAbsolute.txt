@@ -1,0 +1,17 @@
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Extensions/bin/Debug/net6.0/Academy.Project.Extensions.deps.json
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Extensions/bin/Debug/net6.0/Academy.Project.Extensions.dll
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Extensions/bin/Debug/net6.0/Academy.Project.Extensions.pdb
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Extensions/bin/Debug/net6.0/Microsoft.Azure.WebJobs.dll
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Extensions/bin/Debug/net6.0/Microsoft.Azure.WebJobs.Host.dll
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Extensions/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Extensions/bin/Debug/net6.0/System.Memory.Data.dll
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Extensions/obj/Debug/net6.0/Academy.Project.Extensions.csproj.AssemblyReference.cache
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Extensions/obj/Debug/net6.0/Academy.Project.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Extensions/obj/Debug/net6.0/Academy.Project.Extensions.AssemblyInfoInputs.cache
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Extensions/obj/Debug/net6.0/Academy.Project.Extensions.AssemblyInfo.cs
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Extensions/obj/Debug/net6.0/Academy.Project.Extensions.csproj.CoreCompileInputs.cache
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Extensions/obj/Debug/net6.0/Academy.Project.Extensions.csproj.CopyComplete
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Extensions/obj/Debug/net6.0/Academy.Project.Extensions.dll
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Extensions/obj/Debug/net6.0/refint/Academy.Project.Extensions.dll
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Extensions/obj/Debug/net6.0/Academy.Project.Extensions.pdb
+/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Extensions/obj/Debug/net6.0/ref/Academy.Project.Extensions.dll

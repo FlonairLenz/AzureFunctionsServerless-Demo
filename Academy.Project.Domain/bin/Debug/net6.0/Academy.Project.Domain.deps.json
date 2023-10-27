@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Academy.Project.Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.Azure.WebJobs": "3.0.37.0",
+          "Newtonsoft.Json": "13.0.0.0"
+        },
+        "runtime": {
+          "Academy.Project.Domain.dll": {}
+        }
+      },
+      "Microsoft.Azure.WebJobs/3.0.37.0": {
+        "runtime": {
+          "Microsoft.Azure.WebJobs.dll": {
+            "assemblyVersion": "3.0.37.0",
+            "fileVersion": "3.0.37.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.2.27524"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Academy.Project.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Azure.WebJobs/3.0.37.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

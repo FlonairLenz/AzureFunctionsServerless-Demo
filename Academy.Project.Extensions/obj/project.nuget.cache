@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "CuviKijB74A390liA/NUbQ+Hi9S6DT5HS3Svop+WuHfX4kWVrpDdN2/o2YScl5fSPC1apmz9Z4qtuaXhKfac9Q==",
+  "success": true,
+  "projectFilePath": "/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Extensions/Academy.Project.Extensions.csproj",
+  "expectedPackageFiles": [
+    "/Users/florianlenz/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.1/microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",
+    "/Users/florianlenz/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/florianlenz/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
