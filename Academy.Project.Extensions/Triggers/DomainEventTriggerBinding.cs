@@ -34,9 +34,10 @@ namespace Academy.Project.Extensions.Triggers
         public Task<IListener> CreateListenerAsync(ListenerFactoryContext context)
         {
             var executor = context.Executor;
-            var listener = new DomainEventListener(executor, this._context);
+            var makeGenericType = typeof(DomainEventListener<>).MakeGenericType(this._context.Type);
+            var listener = (IListener)Activator.CreateInstance(makeGenericType, executor, this._context)!;
 
-            return Task.FromResult<IListener>(listener);
+            return Task.FromResult(listener);
         }
 
         /// <summary>

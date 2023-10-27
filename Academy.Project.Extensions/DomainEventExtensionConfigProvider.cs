@@ -25,9 +25,9 @@ namespace Academy.Project.Extensions
             bindingRule.BindToCollector<INotification>(typeof(DomainEventNotificationBindingConverter), this);
         }
 
-        public DomainEventTriggerContext CreateContext(DomainEventTriggerAttribute attribute)
+        public DomainEventTriggerContext CreateContext(DomainEventTriggerAttribute attribute, Type type)
         {
-            return new DomainEventTriggerContext(attribute, this.channelFactory.CreateDomainEventChannelClient());
+            return new DomainEventTriggerContext(attribute,  type, this.channelFactory.CreateDomainEventChannelClient());
         }
 
         public DomainEventNotificationBindingContext CreateContext(DomainEventNotificationAttribute attribute)

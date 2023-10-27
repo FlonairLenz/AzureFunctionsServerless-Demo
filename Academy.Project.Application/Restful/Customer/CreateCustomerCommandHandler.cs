@@ -19,16 +19,16 @@ public static class CreateCustomerCommandHandler
     [FunctionName("CreateCustomerCommandHandler")]
     public static async Task<IActionResult> Run(
         [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)] CreateCustomerCommand command,
-        // [CosmosDB(databaseName: "Delivery", containerName: "Customer", Connection = "CosmosDBConnection")] IAsyncCollector<dynamic> entityCollector,
+        [CosmosDB(databaseName: "Delivery", containerName: "Customer", Connection = "CosmosDBConnection")] IAsyncCollector<dynamic> entityCollector,
         [DomainEventNotification] IAsyncCollector<INotification> domainEventCollector,
-        // [ServiceBus("customer-created", Connection = "ServiceBusConnectionString")] IAsyncCollector<IntegrationEvent> integrationEventCollector,
+        [ServiceBus("customer-created", Connection = "ServiceBusConnectionString")] IAsyncCollector<IntegrationEvent> integrationEventCollector,
         ILogger log)
     {
         var customerEntity = CustomerEntity.CreateCustomer(command);
         
-        // await entityCollector.AddAsync(customerEntity);
+        await entityCollector.AddAsync(customerEntity);
         await domainEventCollector.RaiseEventAsync(customerEntity.DomainEvents);
-        // await integrationEventCollector.RaiseEventAsync(customerEntity.IntegrationEvents);
+        await integrationEventCollector.RaiseEventAsync(customerEntity.IntegrationEvents);
         
         return new OkObjectResult(new
         {
