@@ -7,22 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Errors\" />
-      <Folder Include="Exceptions\" />
-      <Folder Include="Repositories\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <Reference Include="Microsoft.Azure.WebJobs">
         <HintPath>..\..\..\.AzureToolsForIntelliJ\AzureFunctionsCoreTools\v4\4.59.0\Microsoft.Azure.WebJobs.dll</HintPath>
       </Reference>
       <Reference Include="Newtonsoft.Json">
         <HintPath>..\..\..\.AzureToolsForIntelliJ\AzureFunctionsCoreTools\v4\4.59.0\Newtonsoft.Json.dll</HintPath>
       </Reference>
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\Academy.Project.Extensions\Academy.Project.Extensions.csproj" />
     </ItemGroup>
 
 </Project>

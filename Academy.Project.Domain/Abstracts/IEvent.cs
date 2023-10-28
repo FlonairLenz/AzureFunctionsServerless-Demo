@@ -1,5 +1,5 @@
 namespace Academy.Project.Domain.Abstracts;
 
-public interface IAggregateRoot
+public interface IEvent
 {
 }

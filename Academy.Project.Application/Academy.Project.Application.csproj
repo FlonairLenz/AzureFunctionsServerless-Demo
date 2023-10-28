@@ -7,6 +7,7 @@
     <ItemGroup>
         <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.CosmosDB" Version="4.4.2" />
         <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.CosmosDB" Version="4.4.0" />
+        <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.EventGrid" Version="3.3.0" />
         <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.ServiceBus" Version="5.13.3" />
         <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.1.1"/>
     </ItemGroup>
@@ -18,12 +19,20 @@
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
             <CopyToPublishDirectory>Never</CopyToPublishDirectory>
         </None>
+        <None Remove="Reactive\IntegrationEventHandlers\**" />
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\Academy.Project.Domain\Academy.Project.Domain.csproj" />
-      <ProjectReference Include="..\Academy.Project.Extensions\Academy.Project.Extensions.csproj" />
     </ItemGroup>
     <ItemGroup>
-      <Folder Include="Reactive\IntegrationEventHandlers\" />
+      <Compile Remove="Reactive\IntegrationEventHandlers\**" />
+    </ItemGroup>
+    <ItemGroup>
+      <EmbeddedResource Remove="Reactive\IntegrationEventHandlers\**" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Reactive\IntegrationEventHandler\" />
+      <Folder Include="Restful\Commands\" />
+      <Folder Include="Restful\Queries\" />
     </ItemGroup>
 </Project>

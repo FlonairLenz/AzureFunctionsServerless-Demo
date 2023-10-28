@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h6mD2XMrf/8CqviL03dZlORx3boaq+mmf2ttGUAhw7SGYbg/23rzTbcj8zB/Rq4AzH/KWsNgP53zGFlSIuW2EA==",
+  "dgSpecHash": "9WdyWSL7+rGME5TOXVbHcPzH8TSMfxU9viWXr9hpa13JxarIUy8qkw6G3O67vxudrXlX5Kka/HeT96U2K3RwWQ==",
   "success": true,
   "projectFilePath": "/Users/florianlenz/RiderProjects/Academy.Project/Academy.Project.Domain/Academy.Project.Domain.csproj",
-  "expectedPackageFiles": [
-    "/Users/florianlenz/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.1/microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",
-    "/Users/florianlenz/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
-    "/Users/florianlenz/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
